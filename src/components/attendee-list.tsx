@@ -5,6 +5,7 @@ import {
   ChevronsRight,
   MoreHorizontal,
   Search,
+  X,
 } from 'lucide-react'
 import { IconButton } from './icon-btn'
 import { Table } from './table/table'
@@ -115,7 +116,7 @@ export function AttendeeList() {
     <div className="flex flex-col gap-4 px-4">
       <div className="flex gap-3 items-center">
         <h1 className="text-2xl font-bold">Participantes</h1>
-        <div className="px-3 w-72 py-1.5 border border-white/10 rounded-lg flex items-center gap-3">
+        <div className="px-3 w-72 py-1.5 border border-white/10 rounded-lg flex items-center gap-3 relative">
           <Search className="size-4 text-emerald-300" />
           <input
             className="bg-transparent focus:ring-0 flex-1 outline-none border-0 p-0 text-sm"
@@ -123,6 +124,12 @@ export function AttendeeList() {
             value={search}
             onChange={onSearchInputChanged}
           />
+          <button
+            className={`bg-transparent text-red-500 flex items-center ${search ? 'block' : 'hidden'}`}
+            onClick={() => setSearch('')}
+          >
+            <X size={15} />
+          </button>
         </div>
       </div>
 
