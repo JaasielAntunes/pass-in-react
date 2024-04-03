@@ -65,16 +65,14 @@ export function AttendeeList() {
                   <td className="py-3 px-4 text-sm text-zinc-300">
                     <input
                       type="checkbox"
-                      className="size-4 bg-black/20 rounded border border-white/10"
+                      className="size-4 bg-black/20 rounded border border-white/10 "
                     />
                   </td>
                   <td className="py-3 px-4 text-sm text-zinc-300">12383</td>
                   <td className="py-3 px-4 text-sm text-zinc-300">
                     <div className="flex flex-col gap-1">
-                      <span className="font-semibold text-white">
-                        Diego Schell Fernandes
-                      </span>
-                      <span>diego@rocketseat.com.br</span>
+                      <span className="font-semibold text-white">Jhon Doe</span>
+                      <span>jhon@gmail.com</span>
                     </div>
                   </td>
                   <td className="py-3 px-4 text-sm text-zinc-300">
