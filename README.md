@@ -16,7 +16,7 @@ Esse é o Frontend Web da aplicação Pass-In para visualização completa das i
 
 ## Requisitos
 
-- Node.js versão 20 ou superior;
+- Node.js versão 20 ou superior
 
 ---
 
