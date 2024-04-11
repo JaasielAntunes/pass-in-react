@@ -20,7 +20,7 @@ Esse é o Frontend Web da aplicação Pass-In para visualização completa das i
 
 ---
 
-## 💻 Tecnologias utilizadas
+## 💻 Tecnologias
 
 - React e React-DOM
 - Date-fns
