@@ -25,6 +25,7 @@ Esse é o Frontend Web da aplicação Pass-In para visualização completa das i
 - React e React-DOM
 - Date-fns
 - Tailwind CSS
+- JavaScript
 - TypeScript
 - Vite
 - DayJS
